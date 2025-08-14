@@ -103,4 +103,5 @@ cv2.waitKey()
 gaussian_psnr, sp_psnr, gaussian_ssim, sp_ssim, gaussian_mse, sp_mse = compare(original, gaussian_blur, sp_blur)
 print('高斯滤波对高斯噪声污染图像去噪后的指标为:PSNR:{},SSIM:{},MSE:{}'.format(gaussian_psnr, gaussian_ssim, gaussian_mse))
 print('高斯滤波对椒盐噪声污染图像去噪后的指标为:PSNR:{},SSIM:{},MSE:{}'.format(sp_psnr, sp_ssim, sp_mse))'
+
 '''
